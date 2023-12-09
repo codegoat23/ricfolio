@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background:#212224 ;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.project-title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    height: min-content;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 280px;
+
+}
+.project-title h1{
+    color: #494C50;
+    font-size: clamp(0px, 25vw, 250px);
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    position: relative;
+}
+
+.project-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-container{
+    justify-content:center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.left-cont, .right-cont{
+   
+    width: 550px;
+    height: 570px;
+    
+}
+.left-upper-cont,.right-bottom-cont{
+    width: 550px;
+    height: 270px;
+}
+.right-bottom-cont{
+    margin-top: 20px;
+}
+.right-upper-row,.left-bottom-row{
+    width: 350px;
+    height: 270px;
+}
+.right-upper-cont,.left-bottom-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.left-bottom-cont{
+    margin-top: 20px;
+}
+#project-txt h3{
+    margin-top: 5px;
+}
+.gallery{
+    padding: 32px;
+}
+.gallery-tabs{
+    margin-top: -20px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tab1{
+    background-image: url(../img/65\ 👄\ \(3\).gif);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: -12px;
+    
+    background-repeat: no-repeat;
+}
+.tab2{
+    margin-top: 50px;
+    background-image: url(../img/Material\ Design\ Awards.gif);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-size:cover;
+    background-position: -12px;
+    
+    background-repeat: no-repeat;
+}
+.tab3{
+    margin-top: -13px;
+    background-image: url(../img/Grabient\ 2\ -\ Branding.gif);
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-size:cover;
+    background-position: -12px;
+    
+    background-repeat: no-repeat;
+}
+.tab4{
+    margin-top: 10px;
+    background-image: url(../img/Graphic\ Design.gif);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-size:130px;
+    background-position: -12px;
+    
+    background-repeat: no-repeat;
+}
+/*
+#tab p{
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 10px;
+    
+    background: white;
+    margin-top: 80px;
+}
+*/
+.gallery-sect{
+   margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery-txt h3{
+    font-size: 28px;
+    color: white;
+}
+.gallery-arrow i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  
+    
+    opacity: 2;
+}

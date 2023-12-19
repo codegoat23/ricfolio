@@ -1,36 +1,49 @@
 /*phone*/
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
  body{
+    height: 1000vh;
     padding: 0;
     margin: 0;
     width: 100%;
+    align-items: center;
+    justify-content: center;
  }
  .wrapper{
-    width: 250px;
+    
+     width: 100%;
      padding: 0;
      margin: 0;
+   
  }
+ 
  main{
-     padding: 0;
-    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
  }
  header{
     display: none;
  }
  .container{
-    padding: 42px;
+   justify-content: center;
+   align-items: center;
+  
     justify-content: center;
-    width: 300px;
+    width: 100%;
     flex-direction: column;
  }
  .left-col,.right-col{
-    align-items: center;
-    width: 360px;
-    height: 75rem;
+ 
+   margin-left: 3.5px;
+    width: 97%;
+    height: 100rem;
    
  }
  .left-upper,.left-bottom,.right-center,.right-bottom{
-    width: 360px;
+    
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     height: 270px;
     
     
@@ -39,7 +52,8 @@
     flex-direction: column;
 }
 .right-upper-row{
-    width: 360px;
+    width: 97%;
+    margin-left: 3.5px;
 }
 .about-sect{
     gap: 3rem;
@@ -60,16 +74,16 @@
     flex-direction: column;
 }
 .left-center-row{
-    width: 360px;
+    width: 97%;
 }
 .my-skills{
-    width: 300px;
+    width: 97%;
 }
 .skills-arrow{
     display: none;
 }
 .brand-sect1{
-    padding-left: 60px;
+   
 }
 .brand-sect2{
     gap: 60px;
@@ -118,6 +132,34 @@
     margin: 12px;
 }
 .footer-bottom{
-    width: 300px;
+    width: 100%;
+}
+.left-bottom1{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.productivity{
+    margin-left: 3.5px;
+    width: 95%;
+}
+.tools{
+    margin-left: 30px;
+}
+#toolicons{
+    width: 50px;
+    height: 50px;
+}
+.toolicon{
+    margin-left: 25px;
+    gap: 10px;
+}
+.does{
+    margin-left: 3.5px;
+    gap: 20px;
+}
+#dorow{
+    width: 45%;
 }
 }
+

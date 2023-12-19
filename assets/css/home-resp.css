@@ -1,7 +1,7 @@
 /*phone*/
 @media all and (max-width: 600px) {
  body{
-    height: 1000vh;
+    
     padding: 0;
     margin: 0;
     width: 100%;

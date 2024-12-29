@@ -730,7 +730,7 @@ font-weight: 900;
     height: 40%;
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 10px;
 }
 #dorow{
     width: 50%;
@@ -743,7 +743,8 @@ font-weight: 900;
 
 }
 .does1{
-    background-image: url('../img/Eurêka\ !.png');
+    background-image: url('../img/we.png');
+    background-size: 80%;
 }
  .doinfo {
     margin-top: 100px;
@@ -772,7 +773,7 @@ font-weight: 900;
     border-radius: 20px;
 }
 .does2{
-    background-image: url('../img/fluid.jpg');
+    background-image: url('../img/original-4534640f19a5ce3ac17be65dc5dd6687.jpg');
 }
 .right-bottom1{
     margin-top: 20px;

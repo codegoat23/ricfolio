@@ -128,7 +128,7 @@ main{
     
 }
 #row{
-    border: 1px solid white;
+    border: 1px solid rgba(113, 112, 112, 0.822);
     border-radius: 25px;
     background: #33363944;
 }
@@ -176,7 +176,7 @@ main{
 }
 .project-cover{
     background-position: center;
-    border: 1px solid #fff;
+    border: 1px solid #7e7c7cde;
     margin-left: 5px;
     width: 95%;
     height: 75%;
@@ -322,7 +322,7 @@ main{
     width: 95%;
     height: 35px;
     border-radius: 20px;
-    border: 1px solid #fff;
+    border: 1px solid #6e6e6ee7;
     background: #1E1E1F;
     margin-top: 20px;
     cursor: pointer;
@@ -673,10 +673,10 @@ font-weight: 900;
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid #848080e4;
     background: #1E1E1E;
     color: #7d7c7c;
-    font-size: 20px;
+    font-size: 25px;
     transition: .1s ease-in-out;
 }
 .social-btn button:hover{
@@ -782,7 +782,7 @@ font-weight: 900;
     flex-direction: column;
     overflow-y: scroll      ;
     overflow-x: hidden;
-    box-shadow: inset 0px -40px 60px rgba(0, 0, 0, 0.8);
+   
 }
 .right-bottom1 span{
    

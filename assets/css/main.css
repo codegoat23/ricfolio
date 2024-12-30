@@ -161,15 +161,19 @@ main{
     height: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 150px;
+    
    
     
    
 
 }
+.project-header span{
+    margin-left: 16px;
+}
 .project-header button{
+    margin-right: 10px;
     color: #fff;
     background: none;
     border: none;
@@ -329,10 +333,11 @@ main{
 }
 .collabs{
     color: #979494e0;
-    gap: 10px;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: -26px;
 }
 .collabs i{
     font-size: 25px;

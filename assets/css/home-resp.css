@@ -22,12 +22,41 @@
     align-items: center;
  }
  header{
-    display: none;
+    display: visible;
+    width: 100%;
+    background: #161616;
+    height: 60px;
+    top: 0;
+    
+ }
+ .nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    top: 0;
+    position: fixed;
+    
+    background: #161616;
+    height: 50px;
+    width:97%;
+    border-radius: 25px;
+    border: 1px solid #888686ac;
+
+   
+    
+ }
+ .logo{
+    margin-left: 10px;
+ }
+ .sec-nav a{
+    margin-right: 3px;
  }
  .container{
    justify-content: center;
    align-items: center;
-  
     justify-content: center;
     width: 100%;
     flex-direction: column;
@@ -38,6 +67,9 @@
     width: 97%;
     height: 100rem;
    
+ }
+ .right-col{
+    margin-top: -320px;
  }
  .left-upper,.left-bottom,.right-center,.right-bottom{
     
@@ -58,10 +90,29 @@
 .about-sect{
     gap: 3rem;
 }
-.name{
-   
-
+.right-upper-row{
+    width: 95%;
 }
+.social-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.social-btn button{
+    width: 20px;
+    height: 20px;
+}
+.resume-sect p{
+    margin-top: -6px;
+    font-size: 16px;
+}
+.project p{
+    font-size: 16px;
+}
+.collabs{}
 .name h3{
     
     white-space: nowrap;
@@ -71,10 +122,53 @@
     font-size: 20px;
 }
 .left-center{
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-direction: row;
+    width: 95%;
 }
 .left-center-row{
-    width: 97%;
+    width: 50%;
+}
+.project-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project-cover{
+    background-size: 150%;
+    width: 93%;
+    margin-left: 7px;
+    height: 70%;
+    margin-top: 13px;
+}
+.github{
+    padding: 0;
+}
+.github-count{
+    margin-left: 16px;
+}
+.git-sect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+.git-arrow{
+    margin-right: 16px;
+}
+.git-txt{
+    margin-left: 16px;
+    width:90%;
+    margin-top: 50px;
+}
+.git-txt p{
+    font-size: 14px;
+}
+.git-txt h3{
+    font-size: 20px;
 }
 .my-skills{
     width: 97%;
@@ -83,10 +177,10 @@
     display: none;
 }
 .brand-sect1{
-   
+   margin-left: -25px;
 }
 .brand-sect2{
-    gap: 60px;
+    
 }
 .contact-info h3{
   white-space: nowrap;
@@ -106,7 +200,7 @@
     gap: 5px;
 }
 .footer{
-    width: 100%;
+    width: 80%;
     margin-top: 0px;
 }
 .footer-nav{
@@ -115,6 +209,9 @@
 }
 .footer-nav .logo{
     display: none;
+}
+.footer-links{
+    margin-left: 35px;
 }
 .footer-links ul{
     align-items: center;
@@ -126,6 +223,7 @@
 .social-links{
     width: 280px;
     justify-content: center;
+    margin-left: 25px;
 }
 .social-links li{
     gap: 2px;
@@ -138,6 +236,12 @@
     width: 95%;
     display: flex;
     flex-direction: column;
+}
+.right-bottom1{
+    width: 95%;
+}
+.contact-arrow{
+    display: none;
 }
 .productivity{
     margin-left: 3.5px;

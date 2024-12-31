@@ -123,9 +123,11 @@
 .brand-arrow{
     display: none;
 }
-.social-btn button{
-  width: 50px;
-  height: 50px;
+.social-btn{
+    
+}
+.tsup{
+    display: none;
 }
 .resume-sect p{
     margin-top: -6px;

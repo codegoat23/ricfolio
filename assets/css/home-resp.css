@@ -1,5 +1,5 @@
 /*phone*/
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
  body{
     
     padding: 0;
@@ -22,12 +22,16 @@
     align-items: center;
  }
  header{
-    display: visible;
-    width: 100%;
+    
     background: #161616;
     height: 60px;
     top: 0;
     
+ }
+ nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  .nav-container{
     display: flex;
@@ -58,34 +62,49 @@
    justify-content: center;
    align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 99%;
     flex-direction: column;
  }
  .left-col,.right-col{
- 
-   margin-left: 3.5px;
-    width: 97%;
+    display: flex;
+    flex-direction: column;
+  
+   align-items: center;
+    width: 94%;
     height: 100rem;
    
  }
  .right-col{
-    margin-top: -320px;
+    margin-top: -390px;
  }
  .left-upper,.left-bottom,.right-center,.right-bottom{
     
-    justify-content: center;
+   
     align-items: center;
-    width: 95%;
+    width: 98%;
     height: 270px;
     
     
 }
+.seo{
+    height: 320px;
+}
+.left-bottom2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .right-upper{
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .right-upper-row{
-    width: 97%;
-    margin-left: 3.5px;
+    width: 99%;
+    
+}.bout-sect{
+    height: 300px;
 }
 .about-sect{
     gap: 3rem;
@@ -105,8 +124,8 @@
     display: none;
 }
 .social-btn button{
-    width: 20px;
-    height: 20px;
+  width: 50px;
+  height: 50px;
 }
 .resume-sect p{
     margin-top: -6px;
@@ -114,6 +133,10 @@
 }
 .project p{
     font-size: 16px;
+}
+.project button{
+    margin-top: 25px;
+    height: 45px;
 }
 .collabs{}
 .name h3{
@@ -129,10 +152,11 @@
     align-items: center;
     
     flex-direction: row;
-    width: 95%;
+    width: 98%;
 }
 .left-center-row{
     width: 50%;
+    height: 190px;
 }
 .project-header{
     display: flex;
@@ -142,9 +166,9 @@
 .project-cover{
     background-size: 150%;
     width: 93%;
-    margin-left: 7px;
+    
     height: 70%;
-    margin-top: 13px;
+    
 }
 .github{
     padding: 0;
@@ -161,11 +185,12 @@
 }
 .git-arrow{
     margin-right: 16px;
+    margin-top: -50px;
 }
 .git-txt{
     margin-left: 16px;
     width:90%;
-    margin-top: 50px;
+    margin-top: -20px;
 }
 .git-txt p{
     font-size: 14px;
@@ -214,7 +239,7 @@
     display: none;
 }
 .footer-links{
-    margin-left: 35px;
+    
 }
 .footer-links ul{
     align-items: center;
@@ -226,7 +251,7 @@
 .social-links{
     width: 280px;
     justify-content: center;
-    margin-left: 25px;
+    
 }
 .social-links li{
     gap: 2px;
@@ -241,14 +266,14 @@
     flex-direction: column;
 }
 .right-bottom1{
-    width: 95%;
+    width: 98%;
 }
 .contact-arrow{
     display: none;
 }
 .productivity{
-    margin-left: 3.5px;
-    width: 95%;
+    
+    width: 98%;
 }
 .tools{
     margin-left: 30px;
@@ -262,8 +287,12 @@
     gap: 10px;
 }
 .does{
-    margin-left: 3.5px;
-    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+    
 }
 #dorow{
     width: 45%;

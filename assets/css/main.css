@@ -696,6 +696,7 @@ font-weight: 900;
     font-size: 25px;
 }
 .productivity .social-btn{
+    font-family: 'DM Sans', sans-serif;
     width: 97%;
     display: flex;
     flex-direction: row;

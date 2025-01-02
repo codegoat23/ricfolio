@@ -719,6 +719,12 @@ font-weight: 900;
     font-size: 25px;
     transition: .1s ease-in-out;
 }
+.social-btn button a{
+    color: #7d7c7c;
+}
+.social-btn button a:hover{
+    color: #fff;
+}
 .social-btn button:hover{
     color: #fff;
 }
